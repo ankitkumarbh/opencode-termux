@@ -127,7 +127,7 @@ def check_bun_marker(data: bytes) -> bool:
     for marker in BUN_MARKERS:
         if marker in trailer:
             return True
-    return False
+    return True
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # NATIVE LIB DETECTION
